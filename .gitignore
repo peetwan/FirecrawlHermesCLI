@@ -1,0 +1,17 @@
+# Firecrawl cache and credentials
+.firecrawl/
+*.json
+*.md
+!SKILL.md
+!README.md
+!references/*.md
+
+# Environment files (may contain API keys)
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
