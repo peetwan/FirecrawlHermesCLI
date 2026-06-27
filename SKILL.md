@@ -30,7 +30,7 @@ terminal(command="firecrawl scrape 'https://example.com' -o .firecrawl/page.md")
 Always use POSIX shell syntax (this is git-bash/MSYS, not PowerShell):
 - Single-quote URLs with `?` or `&`
 - Use `$HOME` not `%USERPROFILE%`
-- Paths: `/c/Users/...` or `C:\Users\...` both work
+- Paths: `/home/user/...` or `C:\Users\...` both work
 - `&&` for chaining, `|` for pipes, `2>&1` for stderr
 
 ## Quick Reference — All Commands
